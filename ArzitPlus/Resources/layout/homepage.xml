@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Hello "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/helloMsg" />
+
+    <GridLayout
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="2"
+        android:useDefaultMargins="true"
+        android:alignmentMode="alignBounds"
+        android:id="@+id/HomePageGrid">
+
+        <Button
+            android:layout_height="190dp"
+            android:layout_width="190dp"
+            android:text=""
+            android:textSize="30sp"
+            android:id="@+id/msg"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:textColor="@android:color/white"
+        />
+        <Button
+            android:layout_height="190dp"
+            android:layout_width="190dp"
+            android:text=""
+            android:textSize="30sp"
+            android:id="@+id/calendar"
+            android:backgroundTint="@android:color/holo_purple"
+            android:textColor="@android:color/white"
+        />
+        <Button
+            android:layout_height="190dp"
+            android:layout_width="190dp"
+            android:text=""
+            android:textSize="30sp"
+            android:id="@+id/homeworks"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white"
+        />
+        <Button
+            android:layout_height="190dp"
+            android:layout_width="190dp"
+            android:text=""
+            android:textSize="30sp"
+            android:id="@+id/grades"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:textColor="@android:color/white"
+        />
+        <Button
+            android:layout_height="190dp"
+            android:layout_width="190dp"
+            android:text=""
+            android:textSize="30sp"
+            android:id="@+id/lessons"
+            android:backgroundTint="@android:color/holo_orange_dark"
+            android:textColor="@android:color/white"
+        />
+        <Button
+            android:layout_height="190dp"
+            android:layout_width="190dp"
+            android:text=""
+            android:textSize="30sp"
+            android:id="@+id/profile"
+            android:backgroundTint="#40e0d0"
+            android:textColor="@android:color/white"
+        />
+
+    </GridLayout>
+
+     
+</LinearLayout>

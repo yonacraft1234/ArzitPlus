@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Messages"
+        android:gravity="center"
+        android:textSize="30sp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/msgRadioGroup"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layoutDirection="rtl"
+        android:textAlignment="center">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="נקראו"
+            android:id="@+id/seenMsg"
+            android:textSize="25dp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="לא נקראו"
+            android:id="@+id/unseenMsg"
+            android:checked="true"
+            android:textSize="25dp"/>
+    </RadioGroup>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/messageListView"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="send message"
+        android:id="@+id/sendMsg"
+        android:layout_gravity="center"
+        android:textSize="20sp"/>
+</LinearLayout>

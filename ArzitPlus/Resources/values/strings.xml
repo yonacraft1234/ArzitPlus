@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">ArzitPlus</string>
+    <string name="action_settings">Settings</string>
+
+	<string-array name="Cities">
+		<item>Choose your city</item>
+		<item>ירושלים</item>
+		<item>תל אביב</item>
+		<item>חיפה</item>
+		<item>ראשון לציון</item>
+		<item>פתח תקווה</item>
+		<item>נתניה</item>
+		<item>אשדוד</item>
+		<item>באר שבע</item>
+		<item>אילת</item>
+		<item>חולון</item>
+		<item>רמת גן</item>
+		<item>אשקלון</item>
+		<item>רחובות</item>
+		<item>הרצליה</item>
+		<item>בת ים</item>
+		<item>כפר סבא</item>
+		<item>חדרה</item>
+		<item>גדרה</item>
+		<item>רעננה</item>
+		<item>נצרת</item>
+		<item>נהריה</item>
+		<item>נס ציונה</item>
+		<item>יבנה</item>
+		<item>עכו</item>
+		<item>עפולה</item>
+		<item>נתיבות</item>
+		<item>צפת</item>
+		<item>דימונה</item>
+		<item>שדרות</item>
+		<item>כפר יונה</item>
+		<item>בית שאן</item>
+	</string-array>
+
+	
+	<string-array name="testType">
+		<item>סוג הבחינה</item>
+		<item>מבחן</item>
+		<item>בוחן</item>
+		<item>מבדק</item>
+		<item>מיצב</item>
+		<item>מפמר</item>
+		<item>הערכה חלופית</item>
+		<item>בגרות</item>
+	</string-array>
+	
+	<string-array name="subjects">
+		<item>מקצוע</item>
+		<item>מתמטיקה</item>
+		<item>אנגלית</item>
+		<item>עברית</item>
+		<item>מדעים</item>
+		<item>מחשבים</item>
+		<item>פיזיקה</item>
+		<item>תנך</item>
+		<item>היסטוריה</item>
+		<item>ספרות</item>
+		<item>אזרחות</item>
+		<item>תרבות יהודית</item>
+	</string-array>
+</resources>

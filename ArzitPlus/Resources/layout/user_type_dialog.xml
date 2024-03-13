@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="380dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="בחר את האפשרות המתאימה לך"
+        android:textSize="25sp"/>
+
+    <RadioGroup
+        android:id="@+id/user_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layoutDirection="rtl">
+
+        <RadioButton
+            android:id="@+id/studentOption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="תלמיד" 
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:id="@+id/teacherOption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="מורה" 
+            android:textSize="25sp"/>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="אישור"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:id="@+id/submit_user_type"/>
+
+</LinearLayout>
